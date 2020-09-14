@@ -10,7 +10,7 @@ const vehicle = new Vehicle("orange");
 // vehicle.honk();
 console.log(vehicle.color);
 
-class Carr extends Vehicle {
+class Car extends Vehicle {
   constructor(public wheel: number, color: string) {
     super(color);
   }
@@ -25,5 +25,5 @@ class Carr extends Vehicle {
   }
 }
 
-const carr = new Carr(4, "red");
-// carr.drive();
+const car = new Car(4, "red");
+// car.drive();
