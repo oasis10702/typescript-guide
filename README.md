@@ -4,3 +4,5 @@
 
 - Array
 - Class
+- Interface
+- Tuples
