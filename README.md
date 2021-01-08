@@ -5,4 +5,6 @@
 - Array
 - Class
 - Interface
-- Tuples
+- Tuple
+- Type
+- Generic
