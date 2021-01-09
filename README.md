@@ -1,4 +1,4 @@
-# TypeScript Guide
+# TypeScript Guide (自分メモ用)
 
 ## Introduction
 
