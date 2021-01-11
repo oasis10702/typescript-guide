@@ -1,6 +1,6 @@
 # TypeScript Guide (自分メモ用)
 
-## General Introduction
+## Guide
 
 - Array
 - Class
