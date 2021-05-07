@@ -2,6 +2,7 @@ class Boat {
   @testDecorator
   color: string = 'red';
 
+  @testDecorator
   get formattedColor(): string {
     return `This boats color is ${this.color}`;
   }
@@ -14,7 +15,6 @@ class Boat {
 }
 
 function testDecorator(target: any, key: string) {
-  console.log(target);
   console.log(key);
 }
 
