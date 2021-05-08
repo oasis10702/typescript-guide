@@ -7,7 +7,7 @@ class Boat {
     return `This boats color is ${this.color}`;
   }
 
-  @logError('Oops, boat was sunk')
+  @logError('Something bad!')
   pilot(): void {
     throw new Error();
     console.log('swish');
@@ -31,5 +31,3 @@ function logError(errorMessage: string) {
     };
   };
 }
-
-new Boat().pilot();
