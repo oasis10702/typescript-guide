@@ -8,10 +8,17 @@ class Boat {
   }
 
   @logError('Something bad!')
-  pilot(): void {
-    throw new Error();
-    console.log('swish');
+  pilot(@parameterDecorator speed: string, @parameterDecorator generateWake: boolean): void {
+    if (speed === 'fast') {
+      console.log('swish');
+    } else {
+      console.log('nothing');
+    }
   }
+}
+
+function parameterDecorator(target: any, key: any, index: number) {
+  console.log(key, index);
 }
 
 function testDecorator(target: any, key: string) {
