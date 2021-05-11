@@ -8,7 +8,7 @@ class Boat {
     return `This boats color is ${this.color}`;
   }
 
-  @logError('Something bad!')
+  @logError('Something bad')
   pilot(@parameterDecorator speed: string, @parameterDecorator generateWake: boolean): void {
     if (speed === 'fast') {
       console.log('swish');
