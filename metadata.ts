@@ -23,7 +23,7 @@ import 'reflect-metadata';
 class Plane {
   color: string = 'red';
 
-  @markFunction('HI THERE')
+  @markFunction('HI THERE!')
   fly(): void {
     console.log('vrrrrrr');
   }
